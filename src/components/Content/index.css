@@ -1,0 +1,14 @@
+.bg {
+    box-sizing: border-box;
+    padding-top:.88rem;
+    /*padding-bottom:.98rem;*/
+    overflow: auto;
+}
+.bg.bg-footer {
+    padding-bottom:.98rem;
+}
+
+.bg.padding {
+    padding-left:.3rem;
+    padding-right:.3rem;
+}

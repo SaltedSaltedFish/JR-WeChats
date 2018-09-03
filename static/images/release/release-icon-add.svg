@@ -1,0 +1,10 @@
+<svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="201.5px" height="201.5px">
+<path fill-rule="evenodd"  stroke="rgb(138, 138, 138)" stroke-width="1px" stroke-dasharray="4, 2" stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+ d="M0.500,0.500 L200.500,0.500 L200.500,200.500 L0.500,200.500 L0.500,0.500 Z"/>
+<path fill-rule="evenodd"  fill="rgb(160, 160, 160)"
+ d="M131.499,84.500 L103.500,84.500 L103.500,111.500 L96.500,111.500 L96.500,84.500 L69.500,84.500 L69.500,77.500 L96.500,77.500 L96.500,49.500 L103.500,49.500 L103.500,77.500 L131.499,77.500 L131.499,84.500 Z"/>
+<text font-family="PingFang SC" fill="rgb(160, 160, 160)" font-size="30px" x="41.5px" y="157.26px">&#28155;&#21152;&#19978;&#20256;</text>
+</svg>

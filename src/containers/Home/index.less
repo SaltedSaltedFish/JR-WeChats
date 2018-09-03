@@ -1,0 +1,79 @@
+@import "../../style/main.less";
+
+.home-tab .am-tab-bar-bar {
+	height: .98rem;
+	min-height: 50PX;
+}
+
+.home-icon {
+
+}
+
+/*修改*/
+.home-group {
+	display: none;
+	height: 100%;
+}
+.home-group.active {
+	display: block;
+}
+
+.footer-nav {
+	height: 100%;
+	overflow: hidden;
+	.font24;
+	line-height: 2.24;
+	background: white;
+	color: #808080;
+}
+
+.footer-nav li {
+	float:left;
+	width: 25%;
+	height:100%;
+	text-align: center;
+}
+/*图标*/
+.footer-nav .join .img {
+	width: .5rem;
+	height: .42rem;
+	background-image: url(../../../static/images/home/tool-quanzi-nor.svg);
+}
+.footer-nav .inv .img {
+	width: .42rem;
+	height: .43rem;
+	background-image: url(../../../static/images/home/tool-yaoqing-nor.svg);
+}
+.footer-nav .pur .img {
+	width: .48rem;
+	height: .42rem;
+	background-image: url(../../../static/images/home/tool-fabu-nor.svg);
+}
+.footer-nav .myself .img {
+	width: .4rem;
+	height: .4rem;
+	background-image: url(../../../static/images/home/tool-geren-nor.svg);
+}
+
+.footer-nav .img {
+	margin:.08rem auto 0;
+	max-height:.5rem;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+/**/
+.footer-nav .active {
+	color:@fe6f11;
+	&.join .img {
+		background-image: url(../../../static/images/home/tool-quanzi-pre.svg);
+	}
+	&.inv .img {
+		background-image: url(../../../static/images/home/tool-yaoqing-pre.svg);
+	}
+	&.pur .img {
+		background-image: url(../../../static/images/home/tool-fabu-pre.svg);
+	}
+	&.myself .img {
+		background-image: url(../../../static/images/home/tool-geren-pre.svg);
+	}
+}

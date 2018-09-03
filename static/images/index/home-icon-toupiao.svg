@@ -1,0 +1,24 @@
+<svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="92px" height="92px">
+<defs>
+<linearGradient id="PSgrad_0" x1="0%" x2="0%" y1="0%" y2="100%">
+  <stop offset="0%" stop-color="rgb(251,107,99)" stop-opacity="1" />
+  <stop offset="100%" stop-color="rgb(248,53,111)" stop-opacity="1" />
+</linearGradient>
+
+</defs>
+<path fill-rule="evenodd"  fill="rgb(128, 194, 105)"
+ d="M45.000,-0.000 C79.690,-0.000 90.000,20.147 90.000,45.000 C90.000,69.853 79.690,90.000 45.000,90.000 C10.309,90.000 -0.000,69.853 -0.000,45.000 C-0.000,20.147 10.309,-0.000 45.000,-0.000 Z"/>
+<path fill="url(#PSgrad_0)"
+ d="M45.000,-0.000 C79.690,-0.000 90.000,20.147 90.000,45.000 C90.000,69.853 79.690,90.000 45.000,90.000 C10.309,90.000 -0.000,69.853 -0.000,45.000 C-0.000,20.147 10.309,-0.000 45.000,-0.000 Z"/>
+<path fill-rule="evenodd"  stroke="rgb(255, 255, 255)" stroke-width="4px" stroke-linecap="round" stroke-linejoin="miter" fill="none"
+ d="M60.000,31.000 L67.000,30.995 C68.657,30.995 70.000,32.367 70.000,34.059 L70.000,63.937 C70.000,65.630 68.657,67.002 67.000,67.002 L25.000,67.002 C23.343,67.002 22.000,65.630 22.000,63.937 L22.000,34.059 C22.000,32.367 23.343,30.995 25.000,30.995 L32.000,31.000 "/>
+<path fill-rule="evenodd"  stroke="rgb(255, 255, 255)" stroke-width="3px" stroke-linecap="round" stroke-linejoin="miter" fill="none"
+ d="M32.000,42.000 L32.000,21.000 C32.000,19.560 33.139,19.000 34.000,19.000 L58.000,19.000 C58.951,19.000 60.000,19.436 60.000,21.000 L60.000,42.000 "/>
+<path fill-rule="evenodd"  stroke="rgb(255, 255, 255)" stroke-width="3px" stroke-linecap="round" stroke-linejoin="miter" fill="none"
+ d="M31.000,43.000 L61.000,43.000 "/>
+<path fill-rule="evenodd"  stroke="rgb(255, 255, 255)" stroke-width="3px" stroke-linecap="round" stroke-linejoin="miter" fill="none"
+ d="M42.000,33.000 L44.000,35.000 L50.000,29.000 "/>
+</svg>

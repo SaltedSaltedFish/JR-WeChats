@@ -1,0 +1,51 @@
+@import "../../style/main.less";
+
+.invContainer {
+	position: fixed;
+	z-index: 999;
+	top:0;
+	width: 100%;
+	height: 100%;
+}
+.invContainer .mask {
+	position: absolute;
+	top:0;
+	z-index: -1;
+	width: 100%;
+	height:100%;
+	background: rgba(60,60,60,.5);
+}
+
+.invitation {
+	width: 6rem;
+	height: 6.4rem;
+	margin:2.8rem auto 0;
+	padding:2.6rem .8rem .75rem;
+	.font36;
+	//background-color: #ffc12b;
+	background: #ffc12b url('../../../static/images/index/pop-pic-yaoqingma@2x.png') no-repeat 1.03rem 2PX;
+	background-size: 4.68rem 2.19rem;
+}
+.invitation,.invitation input {
+	text-align: center;
+}
+.invitation input {
+	width: 100%;
+	height: 1rem;
+	border-radius: 8PX;
+	background: white;
+}
+.invitation .title {
+	margin-bottom: .42rem;
+	.font32;
+}
+.invitation .button {
+	display: block;
+	width: 100%;
+	height: 1rem;
+	margin-top:.34rem;
+	line-height: 1rem;
+	border-radius: 8PX;
+	background-color: #f56110;
+	color:white;
+}

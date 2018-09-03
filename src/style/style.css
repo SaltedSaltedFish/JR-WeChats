@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family:"PingFang SC", "Helvetica Neue", "Hiragino Sans GB", Helvetica, "Microsoft YaHei", Arial;
+    font-size:16PX !important;
+}
+body,ul,h2,h3,p {
+    margin:0;
+    padding:0;
+}
+li {
+    list-style: none;
+    box-sizing: border-box;
+}
+a {
+    color:inherit;
+}
+img {
+    display: block;
+}
+input {
+    height: .31rem;
+    min-height: 31PX;
+    line-height: 1.2;
+    border: none;
+    background: transparent;
+}
+button {
+    border:none;
+}
+/*总容器*/
+.hallContainer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+/**/
+
+/*icon-*/
+.icon-task {
+    background: url('../../static/images/missionhall-icon-weijietu.svg') no-repeat;
+}
+.icon-task-ling {
+    background: url('../../static/images/missionhall-icon-lingqu@2x.png') no-repeat;
+}
+
+.icon-modify {
+    background: url('../../static/images/re/release-icon-edit.svg') no-repeat;
+}
+.icon-examine {
+    background: url('../../static/images/re/release-icon-shenghe.svg') no-repeat;
+}
+.icon-amount {
+    background: url('../../static/images/re/release-icon-add.svg') no-repeat;
+}
+.icon-username {
+    width: .28rem;
+    height: .4rem;
+    background: url('../../static/images/login/login-icon-phone.svg') no-repeat;
+}
+.icon-password {
+    width: .28rem;
+    height: .34rem;
+    background: url('../../static/images/login/login-icon-password.svg') no-repeat;
+}
+.icon-username1 {
+    width: .28rem;
+    height: .4rem;
+    background: url('../../static/images/bdPhone/register-icon-phone.svg') no-repeat;
+}
+.icon-password1 {
+    width: .28rem;
+    height: .34rem;
+    background: url('../../static/images/bdPhone/register-icon-password-02.svg') no-repeat;
+}
+/*home*/
+.icon-money {
+    width: .9rem;
+    height:.9rem;
+    background: url('../../static/images/index/home-icon-zhengqian.svg') no-repeat;
+}
+.icon-art {
+    width: .9rem;
+    height:.9rem;
+    background: url('../../static/images/index/home-icon-zhuanfa.svg') no-repeat;
+}
+.icon-vote {
+    width: .9rem;
+    height:.9rem;
+    background: url('../../static/images/index/home-icon-toupiao.svg') no-repeat;
+}
+.icon-leav {
+    width: .9rem;
+    height:.9rem;
+    background: url('../../static/images/index/home-icon-dianzan.svg') no-repeat;
+}
+.icon-task {
+    width: .9rem;
+    height:.9rem;
+    background: url('../../static/images/index/home-icon-renwu.svg') no-repeat;
+}
+/*其他icon*/
+.icon-screen {
+    width: .24rem;
+    height: .26rem;
+    background: url('../../static/images/icon/dating-icon-shaixuan-pre.svg') no-repeat;
+}
+.icon-close {
+    width: .27rem;
+    height: .27rem;
+    background: url('../../static/images/icon/examine-icon-delete.svg') no-repeat;
+}
+.icon-weChat {
+    width: .68rem;
+    height: .68rem;
+    background: url('../../static/images/top/my-icon-wuchat.svg') no-repeat;
+}
+/*条件*/
+.icon-condition {
+    background: url('../../static/images/icon/condition.svg') no-repeat 50% 50%;
+    background-size: .5rem;
+}
+/*end*/
+.icon-select {
+    width: .48rem;
+    height: .48rem;
+    border-radius: 50%;
+    border:1PX solid #fe6f11;
+}
+.icon-select:after {
+    position: absolute;
+    top:20%;
+    left:20%;
+    content: "";
+    width: .3rem;
+    height: .15rem;
+    border:1PX solid #fe6f11;
+    border-top:transparent;
+    border-right:transparent;
+    transform: rotate(-50deg);
+}
+/*个人中心*/
+
+.icon {
+    position: absolute;
+    display: block;
+    background-size: 100%;
+}
+
+.am-activity-indicator-spinner {
+    margin:0 auto;
+}
+
+/*下拉刷新容器总高*/
+.tabsContainer {
+    position: relative;
+    height:100%;
+}
+.am-list-body {
+    background: transparent !important;
+}
+/*数据量少时显示问题*/
+/*.am-list-view-scrollview-content.am-list,*/
+/*.am-pull-to-refresh-content-wrapper,*/
+/*.am-pull-to-refresh-transition{*/
+    /*height: 100%;*/
+/*}*/
+
+/*容器溢出规则*/
+.am-pull-to-refresh-content-wrapper {
+    overflow: visible !important;
+}
+/*标注字类名*/
+.Tagging1 {
+    color:#fd3635;
+}
+
+/*无数据*/
+.noData {
+    font-size:16PX;
+    color: #888;
+    text-align: center;
+}
+.noData.hasPadding {
+    padding: 9PX 15PX 15PX 15PX;
+}
+
+/*高度失效问题，在qq浏览器上*/
+.am-tab-bar-item {
+    position: absolute;
+    width: 100%;
+}
+/*safari浏览器高度*/
+.am-tabs-horizontal .am-tabs-pane-wrap-active {
+    position: relative;
+    min-height: 100%;
+    /*height: 100% !important;*/
+}

@@ -1,0 +1,167 @@
+@import "../../../style/main.less";
+
+
+/**/
+.top-lv {
+	//margin-top:.5rem;
+}
+.top-lv ul {
+	overflow: hidden;
+}
+.top-lv li {
+	float: left;
+	margin-bottom: .16rem;
+	border:1px solid #d9d9d9;
+	border-radius: 8px;
+	width: 2.18rem;
+	height: 1.2rem;
+	.font32;
+	background: white;
+	color:#111111;
+	text-align: center;
+}
+.top-lv li:not(:nth-child(3n)) {
+	margin-right: .16rem;
+}
+
+/**/
+.top-lv .title {
+	margin:.15rem 0;
+}
+.top-lv .money {
+	color:#808080;
+}
+/**/
+.top-lv li.active {
+	background: @fe6f11;
+	border-color:@fe6f11;
+	
+	.money {
+		color:white;
+	}
+	.title {
+		color:white;
+	}
+}
+
+/**/
+.top-ranking {
+	margin-top:.25rem;
+	border: solid 1px #d9d9d9;
+	border-radius: 8px;
+	overflow: hidden;
+}
+.top-ranking :after,.top-ranking :before {
+	display: none !important;
+}
+/**/
+.pay-money {
+	margin:.4rem 0 0;
+}
+.pay-money .Tagging1 {
+	.font48;
+}
+
+/**/
+.payment {
+	position: relative;
+	margin:.4rem 0 .6rem;
+	padding-left:1.28rem;
+	height: 1.3rem;
+	line-height: 1.3rem;
+	background: white;
+	.font32;
+	.color333;
+}
+.payment .icon-weChat {
+	top:.25rem;
+	left:.45rem;
+}
+.payment .icon-select {
+	top:.43rem;
+	right:.37rem;
+}
+
+/**/
+.agr {
+	position: relative;
+	padding-left:.62rem;
+	margin:.27rem 0 .45rem;
+	height: .4rem;
+	line-height: .4rem;
+	.color333;
+}
+.agr span {
+	color:#fe6f11;
+}
+.agr .icon-select {
+	left:.1rem;
+	width: .4rem;
+	height: .4rem;
+	background: #fe6f11;
+	border-radius: 0;
+}
+.agr .icon-select:after {
+	width: .2rem;
+	height: .1rem;
+	border-color:white;
+}
+
+/**/
+.pay-dec {
+	.font34;
+	line-height: 1.41;
+	color:#9c9c9c;
+}
+
+
+/*置顶类型*/
+.top-type {
+	margin:.2rem 0 .15rem;
+	overflow: hidden;
+}
+.top-type .type-group {
+	position: relative;
+	float:left;
+	display: flex;
+	align-items: center;
+	width: 2.18rem;
+	height: .8rem;
+	line-height: .7rem;
+}
+.top-type .type-group .dot{
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: .4rem;
+	height: .4rem;
+	border-radius: 50%;
+	border:1px solid #dadada;
+}
+
+.top-type .type-group.active {
+	.dot {
+		border:1px solid #fd3635;
+	}
+	.dot:after {
+		content: "";
+		display: block;
+		border-radius: 50%;
+		width: 40%;
+		height: 40%;
+		background: #fd3635;
+	}
+	p {
+		color:#fd3635;
+	}
+}
+
+.top-type .type-group p {
+	margin-left:.1rem;
+	.font32;
+	.color333;
+}
+.top-type .type-group:not(:last-child) {
+	margin-right: .16rem;
+}

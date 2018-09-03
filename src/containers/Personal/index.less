@@ -1,0 +1,129 @@
+@import "../../style/main.less";
+
+.personal {
+	padding-top:.88rem;
+}
+
+/**/
+.per-info {
+	margin-bottom: .4rem;
+	background:@fe6f11;
+	color:white;
+}
+.per-info .title .title-name {
+	display:block;
+	float:left;
+	max-width: 3.5rem;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.per-info .top {
+	position: relative;
+	min-height:1.92rem;
+}
+.per-info .img {
+	position: absolute;
+	left:0;
+	top:0;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	width: 1.95rem;
+	height: 100%;
+}
+.per-info .img img {
+	width: 1.3rem;
+	height: 1.3rem;
+	border-radius: 50%;
+	//border:2px solid white;
+}
+.per-info .img .img-group {
+	padding:.06rem;
+	border-radius: 50%;
+}
+.per-info .vip-nameplate {
+	margin-left:5px;
+	padding: .06rem .15rem;
+	height: .32rem;
+	border-radius: 16px;
+	font-size: .2rem;
+	color: white;
+}
+
+.per-info .vip0 {
+	.img-group {
+		background-color:white;
+	}
+	.vip-nameplate {
+		border:1PX solid white;
+	}
+}
+
+.per-info .vip1 {
+	.img-group {
+		background-image: @vip1;
+	}
+	.vip-nameplate {
+		background-color:white;
+		color:@vip1_b;
+	}
+}
+.per-info .vip2 {
+	.img-group {
+		background-image: @vip2;
+	}
+	.vip-nameplate {
+		background-image:@vip2_b;
+	}
+}
+.per-info .vip3,.per-info .vip4 {
+	.img-group {
+		background-image: @vip3;
+	}
+	.vip-nameplate {
+		background-image:@vip3_b;
+		box-shadow: 0px 3px 7px 0px rgba(93, 13, 13, 0.2);
+	}
+}
+/**/
+.per-info .info {
+	padding: .5rem 0 .15rem 1.95rem;
+	.font34;
+}
+.per-info .info .photo {
+	margin-top:.15rem;
+	.font26;
+}
+
+.per-info .bottom {
+	height: .8rem;
+	line-height: .8rem;
+	background-color: #e82120;
+	.font26;
+}
+.per-info .bottom ul {
+	overflow: hidden;
+}
+.per-info .bottom li {
+	position: relative;
+	float: left;
+	width: 33.333%;
+	//width: 50%;
+	text-align: center;
+}
+.per-info .bottom li:not(:last-child):after {
+	content: "";
+	position: absolute;
+	top:23.75%;
+	right: 0;
+	width:1px;
+	height: .42rem;
+	background: white;
+}
+
+.per-list {
+	overflow: auto;
+}
+
+

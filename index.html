@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no,user-scalable=no">
+    <meta name="theme-color" content="#000000">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*.ttlsa.com">
+    <title>加人</title>
+    <script>
+
+		var fontSize =  document.documentElement.clientWidth / 7.5 < 80?(document.documentElement.clientWidth / 7.5):80;
+
+    	document.documentElement.style.fontSize = fontSize + 'px';
+
+    </script>
+    <link rel="stylesheet" href="dist/bundle.css?v=421"/>
+</head>
+<body>
+    <div id="root" style="height:100%;"></div>
+</body>
+<script>
+	/*变量声明*/
+	var http = 'http://jiaren.hbgg1314520.cn/';
+	var jr_VERSION = 421;
+
+	var httpRequestAddress = http+'JR-WeChat/';
+	var httpRequest = http+'JR/';
+	var httpRequestFile = http+'resource/';
+	var httpCode = http+'resource/qrcode/';
+	var authorizedAddress = httpRequestAddress + "index.html?v=" + jr_VERSION;
+
+	// var tabs = 'log'; //  暂时作为home页面tab的展开状态记录
+	var StateHeight = document.documentElement.clientHeight;
+	var StateWidth = document.documentElement.clientWidth;
+
+	var isMicroMessenger;
+	var isApp;
+	/**/
+</script>
+<script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+<script src="dist/bundle.js?v=421"></script>
+</html>

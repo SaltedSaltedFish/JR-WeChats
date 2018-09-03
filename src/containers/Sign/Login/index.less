@@ -1,0 +1,77 @@
+@import "../../../style/main.less";
+
+.login {
+	//background: url('../../../../static/images/login/login-bg@2x.jpg') no-repeat;
+	//background-size: 100% 100%;
+	background-image: linear-gradient(to bottom, #fd3635, #990269);
+}
+
+.logo {
+	width: 2rem;
+	height:2rem;
+	margin:1.2rem auto 0;
+	img {
+		width: 100%;
+	}
+}
+
+.login-input {
+	width: 6.3rem;
+	margin:0 auto;
+	color:white;
+}
+.logInput-group {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: .8rem;
+	border-bottom:1PX solid white;
+	margin:.75rem 0 .5rem;
+	.font32;
+	color:white;
+}
+.logInput-group input {
+	display: block;
+	width: 100%;
+	padding-left:.8rem;
+	color:white;
+}
+
+.verContainer {
+	padding-right: 2rem;
+}
+.verCode {
+	position: absolute;
+	top:0;
+	right:0;
+	width: 2rem;
+	height:.6rem;
+	border-radius: 30PX;
+	border:1PX solid white;
+	.font28;
+	line-height: .6rem;
+	text-align: center;
+}
+
+.submit {
+	height:.88rem;
+	border-radius: 44PX;
+	margin:.45rem 0 1.75rem;
+	.font34;
+	line-height: .88rem;
+	.tagging2();
+	::before {
+		border:none !important;
+	}
+}
+
+.wechat .title {
+	margin-bottom: .4rem;
+	.font34;
+	text-align: center;
+}
+.wechat img {
+	width: 1.2rem;
+	margin:0 auto;
+}

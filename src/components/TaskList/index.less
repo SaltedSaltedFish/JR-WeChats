@@ -1,0 +1,203 @@
+@import "../../style/main.less";
+
+.taskContainer {
+	position: relative;
+	//height: 1.7rem;
+	border-bottom: 1PX solid #d2d2d2;
+	background: white;
+}
+/**/
+.taskContainer .img {
+	position: absolute;
+	top:8px;
+	left:.25rem;
+	width: 1.12rem;
+	height: 1.12rem;
+	padding: .06rem;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.taskContainer .img:after {
+	position: absolute;
+	top:-.3rem;
+	right:0;
+	content: "";
+	width: .67rem;
+	height: .45rem;
+	//background: red;
+}
+.taskContainer .img img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	overflow: hidden;
+	line-height: 1.2rem;
+	text-align: center;
+}
+/**/
+.taskContainer .list {
+	padding:.26rem 1.7rem .16rem 1.51rem;
+	.font20;
+	color:white;
+}
+
+.taskContainer .title {
+	.font24;
+}
+.taskContainer .name {
+	display: inline-block;
+	max-width: 2rem;
+	margin-right: .17rem;
+	.font32;
+	.color333;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.taskContainer .address {
+	margin-right: .12rem;
+	color:#999999;
+}
+.taskContainer .num {
+	color: #fd3635;
+}
+
+/**/
+.taskContainer .dec {
+	margin:.2rem 0 .05rem;
+	width: 57vw;
+	max-width: 4.2rem;
+	min-height: 16px;
+	.font28;
+	color: #666666;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+/**/
+.taskContainer .label span {
+	margin-right: .12rem;
+	padding:.06rem .15rem;
+}
+.taskContainer .task-label {
+	height: .32rem;
+	border-radius: 16px;
+}
+.taskContainer .stick.label {
+	padding-left: 1.5rem;
+	//height: .42rem;
+	font-size: .2rem;
+	color: white;
+}
+/**/
+.taskContainer .button {
+	position: absolute;
+	right:.3rem;
+	top:24%;
+	width: 1.4rem;
+	height: .68rem;
+	line-height: .68rem;
+	border-radius: 8px;
+	border: solid 1px #fd3635;
+	.font32;
+	background-color: white;
+	color: #fd3635;
+}
+/*花钱置顶是黄色，积分置顶是蓝色*/
+.task-top1 {
+	background-image: linear-gradient(to right, #218efe, #04d9ff 99%);
+}
+.task-top2 {
+	background-image: linear-gradient(to right, #ff8b36, #ffb504 99%);
+}
+/*按钮*/
+.button {
+	&.disabled {
+		background: #7d7d7d !important;
+	}
+}
+
+/*等级显示*/
+.taskContainer.vip1 {
+	.img {
+		background-image: @vip1;
+	}
+	.button {
+		background-color: @vip1_b;
+		color:white;
+	}
+	.task-vip {
+		background: @vip1_b;
+	}
+}
+.taskContainer.vip2 {
+	.img {
+		background-image: @vip2;
+	}
+	.button {
+		border:none;
+		background-color:transparent;
+		background-image: @vip2_b;
+		color:white;
+	}
+	.task-vip {
+		background-image: @vip2_b;
+	}
+}
+.taskContainer.vip3,.taskContainer.vip4 {
+	.img {
+		background-image: @vip3;
+	}
+	.button {
+		border:none;
+		background-color:transparent;
+		background-image: @vip3_b;
+		color:white;
+	}
+	.task-vip {
+		background-image: @vip3_b;
+	}
+}
+
+/*名片*/
+.per-info.card {
+	background: white;
+	color:#333;
+	.photo {
+		color: #6a6a6a;
+	}
+}
+.per-info.card .vip0 {
+	.vip-nameplate {
+		border: 1PX solid @fe6f11;
+		color:@fe6f11;
+	}
+}
+.per-info.card .vip1 {
+	.vip-nameplate {
+		background-color: @fe6f11;
+		color: white;
+	}
+}
+
+.card-content {
+	padding:.45rem 0 .25rem;
+	border-top: .3rem solid #f5f5f9;
+	background: white;
+	.title {
+		margin-bottom: .25rem;
+		padding-left:.5rem;
+		line-height: 1.5;
+		.font32;
+		color:#111111;
+	}
+	.img {
+		margin:0 .65rem;
+		
+		img {
+			width: 100%;
+		}
+	}
+}

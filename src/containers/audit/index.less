@@ -1,0 +1,26 @@
+
+@import "../../style/main.less";
+
+.audit {
+	.release-fill {
+		padding:0 .3rem .3rem;
+	}
+	.release-fill .add-photo {
+		padding-top: 0;
+		width: 100%;
+		height: 100%;
+		min-height: 5.68rem;
+		img {
+			position: relative;
+		}
+	}
+	
+	input[type='file'] {
+		position: absolute;
+		top: 0;
+		z-index: 999;
+		display: block;
+		opacity: 0;
+		height: 100%;
+	}
+}

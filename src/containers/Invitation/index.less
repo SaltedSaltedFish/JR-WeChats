@@ -1,0 +1,141 @@
+@import "../../style/main.less";
+
+.icon.text {
+	top:0;
+	right:0;
+	width: 2rem;
+	height:100%;
+}
+
+.inv-top {
+	height:1.6rem;
+	padding:.3rem 0;
+	//margin-bottom: .2rem;
+	//background: white;
+	overflow: hidden;
+	border-bottom: .2rem solid #f5f5f9;
+}
+.inv-top .top-info {
+	position: relative;
+	float: left;
+	width: 33.333%;
+	text-align: center;
+}
+.inv-top .top-info:not(:last-child):after {
+	content: "";
+	position: absolute;
+	right:0;
+	top:.1rem;
+	width: 1PX;
+	height:.8rem;
+	background: #ccc;
+}
+.top-info .title {
+	margin-bottom: .15rem;
+	.font32;
+	.color333;
+}
+/**/
+.top-info .dec {
+	.font48;
+	.tagging2;
+}
+.top-info .dec span {
+	.font24;
+}
+/**/
+.inv-bottom {
+	//height:9.65rem;
+	height:71vh;
+	padding:.4rem .4rem 0;
+	background: white;
+}
+.inv-bottom ul,.inv-bottom .ps {
+	padding: 0 0 0 .36rem;
+}
+.inv-bottom ul {
+	line-height: 1.53;
+	.font30;
+	.color333;
+}
+.inv-bottom .ps {
+	line-height: 1.5;
+	.font24;
+	color: #666666;
+}
+.inv-bottom li {
+	list-style: decimal;
+}
+.inv-bottom > p.title {
+	margin-bottom: .33rem;
+	.font32;
+	text-align: center;
+}
+.inv-bottom .dec {
+	padding:.28rem .24rem .31rem .36rem;
+	margin-bottom: .67rem;
+	background: #f3f3f3;
+	.font30;
+	color:#666666;
+	line-height: 1.53;
+}
+.inv-bottom .dec h2 {
+	margin-bottom: .34rem;
+	line-height: normal;
+	.font34;
+	font-weight: normal;
+	color: #666666;
+}
+
+.inv-code {
+	padding:.23rem 0 .36rem;
+	margin:.3rem 0 .23rem;
+	background: #ccc;
+	text-align: center;
+}
+.inv-code .title {
+	.font28;
+	margin-bottom: .37rem;
+}
+.inv-code .code {
+	.font48;
+}
+
+span.button {
+	display: block;
+	margin-bottom:10px;
+	height:.86rem;
+	border-radius: 43PX;
+	background-color: @fe6f11;
+	border: solid 2px @fe6f11;
+	.font34;
+	line-height: .86rem;
+	color:white;
+	text-align: center;
+}
+
+.button.gray {
+	pointer-events: none;
+	filter: grayscale(100%);
+};
+
+/*邀请好友图片*/
+.inv-mask {
+	position: fixed;
+	top:0;
+	left:0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height:100%;
+	background: rgba(0, 0, 0, 0.25);
+	z-index: 999;
+}
+.inv-mask.hidden {
+	display: none;
+}
+.inv-mask canvas {
+	display: none;
+	margin:0 auto;
+}
